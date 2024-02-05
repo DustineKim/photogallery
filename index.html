@@ -11,11 +11,11 @@
 <body>
     <header>
         <h1>TK Photography</h1>
-        <nav>
+        <nav class="navbar">
             <ul>
-                <li>About</li>
-                <li>Gallery</li>
-                <li>Contact</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -45,25 +45,28 @@
         <img src="images/Wyoming.png" alt="Wyoming">
     </section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>Please fill out this form and I’ll connect with you soon.</p>
 
-        <form action="file:///C:/Users/dkx2a/OneDrive/Documents/git337/photogallery/photogallery/index.html" method="post" target="_blank">
-
-            <label for="my-name">Name</label>
-            <input type="text" name="my-name" id="my-name" required>
-
-            <label for="my-email">Email</label>
-            <input type="text" name="my-email" id="my-email" required>
-
-            <label for="my-message">Message</label>
-            <input type="text" name="my-message" id="my-message">
-
-            <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
-        </form>
-    </section>
 </main>
+
+<section  class="form">
+    <h2>Contact</h2>
+    <p>Please fill out this form and I’ll connect with you soon.</p>
+
+    <form action="file:///C:/Users/dkx2a/OneDrive/Documents/git337/photogallery/photogallery/index.html" method="post" target="_blank">
+
+        <label for="my-name">Name</label>
+        <input type="text" name="my-name" id="my-name" required>
+
+        <label for="my-email">Email</label>
+        <input type="text" name="my-email" id="my-email" required>
+
+        <label for="my-message">Message</label>
+        <input type="text" name="my-message" id="my-message">
+
+        <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+    </form>
+</section>
+
 <footer>
     <p>Copyright 2021 TK Photography</p>
 </footer>
