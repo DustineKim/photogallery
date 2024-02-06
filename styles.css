@@ -66,6 +66,30 @@ img {
     margin: 20px auto;
 }
 
+
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.container img {
+    width: 90%;
+}
+
+.container .text-chile {
+    position: absolute;
+    color: white;
+    left: 42%;
+}
+
+
+
+
+
+
+
 form {
     width: 350px;
 	margin: 16px auto;
@@ -102,19 +126,138 @@ footer p {
 }
 
 input {
-    width: 340px;
+    width: 350px;
     height: 30px;
 }
 
 #my-submit {
     font-weight: bold;
-    border-radius: 5px;
-    width: 100px;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
     margin: 10px auto;
     background-color: #007d7b;
     color: white;
 }
 
+#my-submit:hover {
+    background-color: rgb(0, 102, 102);
+}
+
 p {
     font-size: 1.25em;
+}
+
+
+
+@media screen and (min-width: 880px) {
+    body {
+        width: 880px;
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    .container {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+
+    .container img {
+        object-fit: cover;
+        display: flex;
+        width: 400px;
+        height: 100%;
+    }
+
+
+
+
+    form {
+        width: 600px;
+        margin: 16px auto;
+        padding: 16px;
+        color: #363432;
+        border-radius: 4px;
+    }
+
+    input {
+        width: 600px;
+        height: 30px;
+    }
+
+    #my-submit {
+        font-weight: bold;
+        border-radius: 15px;
+        width: 350px;
+        height: 40px;
+        margin: 10px auto;
+        background-color: #007d7b;
+        color: white;
+    }
+    
+    #my-submit:hover {
+        background-color: rgb(0, 102, 102);
+    }
+
+}
+
+@media screen and (min-width: 1300px) {
+    body {
+        width: 1300px
+    }
+
+    .container {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+
+    .container img {
+        object-fit: cover;
+        display: flex;
+        width: 400px;
+        height: 100%;
+    }
+
+
+
+
+    form {
+        width: 1000px;
+        margin: 16px auto;
+        padding: 16px;
+        color: #363432;
+        border-radius: 4px;
+    }
+
+    input {
+        width: 1000px;
+        height: 30px;
+    }
+
+    #my-submit {
+        font-weight: bold;
+        border-radius: 15px;
+        width: 600px;
+        height: 40px;
+        margin: 10px auto;
+        background-color: #007d7b;
+        color: white;
+    }
+    
+    #my-submit:hover {
+        background-color: rgb(0, 102, 102);
+    }
+
+    .navbar ul {
+        list-style-type: none;
+        background-color: black;
+        padding: 0px;
+        margin: 0px;
+        overflow: auto;
+        text-align: right;
+    }
 }
