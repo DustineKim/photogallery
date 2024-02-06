@@ -11,12 +11,15 @@ main {
 
 
 h1 {
+    font-size: 3em;
     color: #007d7b;
     padding: 5px;
     margin: 0px;
+    text-align: center;
 }
 
 h2 {
+    font-size: 2em;
     text-align: center;
     padding-top: 5px;
     margin: 0%;
@@ -96,4 +99,22 @@ input {
 footer p {
     text-align: center;
     color: white;
+}
+
+input {
+    width: 340px;
+    height: 30px;
+}
+
+#my-submit {
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    margin: 10px auto;
+    background-color: #007d7b;
+    color: white;
+}
+
+p {
+    font-size: 1.25em;
 }
