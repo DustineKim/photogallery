@@ -172,6 +172,21 @@ p {
         height: 100%;
     }
 
+    .container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.container img {
+    width: 90%;
+}
+
+.container .text-chile {
+    position: absolute;
+    color: white;
+    left: 42%;
+}
 
 
 
